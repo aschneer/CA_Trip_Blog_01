@@ -1,0 +1,7 @@
+This folder was included with the "Grayscale"
+Bootstrap theme.  It contains images used
+for the theme.  They are not used on this site,
+and are simply here to preserve the original
+theme as much as possible in the background.
+My custom styles are cascaded on top of the
+Grayscale theme ones.

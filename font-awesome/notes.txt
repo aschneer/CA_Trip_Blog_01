@@ -1,0 +1,5 @@
+This folder contains custom fonts used by
+the Grayscale theme.  They also control the
+hamburger icon for the mobile-friendly nav-bar
+drop-down menu, as well as the down-arrow on
+the top of the page.
