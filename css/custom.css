@@ -10,3 +10,29 @@ font-family: 'Indie Flower', cursive;
 font-family: 'Architects Daughter', cursive; 
 font-family: 'Shadows Into Light Two', cursive;
 */
+/*
+*:not(.navbar)
+{
+	color: black;
+}*/
+body
+{
+	background-image: url("../assets/purty_wood/purty_wood.png");
+}
+header.intro
+{
+	background-color: transparent;
+	background-image: none;
+}
+header.intro,section,footer
+{
+	color: black;
+}
+nav.navbar-custom
+{
+	background-color: black;
+}
+hr.featurette-divider
+{
+	border-color: black;
+}
