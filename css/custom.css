@@ -28,11 +28,11 @@ header.intro,section,footer
 {
 	color: black;
 }
-nav.navbar-custom
-{
-	background-color: black;
-}
 hr.featurette-divider
 {
 	border-color: black;
+}
+div.intro-body
+{
+	padding-top: 100px;
 }
