@@ -12,6 +12,7 @@ body {
 	width: 100%;
 	height: 100%;
 	webkit-tap-highlight-color: rgba(255,255,255,.2);
+	background-image: url("../assets/purty_wood/purty_wood.png");
 }
 
 html {
@@ -154,13 +155,18 @@ a:hover, a:focus {
 	color: #fff;
 }
 
+.content-section {
+	height: 100%;
+	padding-top: 75px;
+}
+
 .intro {
 	width: 100%;
-	padding: 100px 0;
+	padding-top: 50px;
 	text-align: center;
 	color: #fff;
-	background: url("PUT LANDING PAGE PICTURE HERE") no-repeat bottom center scroll;
-	background-color: transparent;
+	/*background: url("../assets/landing.jpeg") no-repeat bottom center scroll;*/
+	/*opacity: 0.5;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -170,20 +176,33 @@ a:hover, a:focus {
 .intro .intro-body {
 	vertical-align: middle;
 	position: relative;
-	top: 35%;
+	top: 5%;
+	padding-top: 10px;
 }
 
 .intro .intro-body .brand-heading {
 	font-size: 40px;
+	text-shadow: 0px 0px 1px black;
 }
 
 .intro .intro-body .intro-text {
 	font-size: 18px;
 }
 
-.content-section {
+div#landing-image
+{
+	width: 80%;
+	max-width: 600px;
+	padding-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div#landing-image img
+{
+	width: 100%;
 	height: 100%;
-	padding-top: 75px;
+	box-shadow: 0px 0px 15px black;
 }
 
 /*section.content-section#featurettes {
@@ -208,6 +227,19 @@ footer p {
 	text-shadow: none;
 	background: #fcfcfc;
 	background: rgba(255,255,255,.2);
+}
+
+header.intro,section,footer
+{
+	color: black;
+}
+hr.featurette-divider
+{
+	border-color: black;
+}
+div.featurette
+{
+	height: 100%;
 }
 
 
