@@ -169,6 +169,8 @@ a:hover, a:focus {
 
 .intro .intro-body {
 	vertical-align: middle;
+	position: relative;
+	top: 35%;
 }
 
 .intro .intro-body .brand-heading {
