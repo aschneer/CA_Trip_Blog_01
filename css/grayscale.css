@@ -240,6 +240,7 @@ hr.featurette-divider
 div.featurette
 {
 	height: 100%;
+	padding-top: 100px;
 }
 
 
